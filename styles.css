@@ -173,7 +173,7 @@ a:nth-child(1) {
 }
 
 .project img {
-  max-height: 250px;
+  height: 250px;
   margin-bottom: 2rem;
 }
 
@@ -252,4 +252,48 @@ a:nth-child(1) {
   padding: 0 0.8rem;
   overflow: scroll;
   background: rgba(0, 0, 0, 0.8);
+}
+
+@media only screen and (max-width: 650px) {
+  .hero-inner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 2rem 0;
+  }
+  .hero-info h1 {
+    font-size: 3rem;
+  }
+  .project img {
+    height: 175px;
+  }
+  .left {
+    left: 0.5rem;
+  }
+  .right {
+    right: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .carousel-inner {
+    width: 75%;
+  }
+  .project img {
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  .skills-inner {
+    grid-template-columns: 1fr;
+  }
 }
