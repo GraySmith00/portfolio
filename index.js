@@ -15,7 +15,7 @@ const projects = [
     ],
     image: './images/talentBuyerDash.jpg',
     github: 'https://github.com/GraySmith00/talent-buyer-client',
-    live: 'http://talent-buyer.herokuapp.com'
+    live: 'https://talent-buyer.netlify.com'
   },
   {
     title: 'BeakSeeker',
@@ -32,7 +32,7 @@ const projects = [
     ],
     image: './images/beakSeekerImg.jpg',
     github: 'https://github.com/GraySmith00/beak-seeker-client',
-    live: 'http://beakseeker.herokuapp.com'
+    live: 'https://beakseeker.herokuapp.com'
   },
   {
     title: 'StarWarsAwakens',
