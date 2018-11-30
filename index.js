@@ -32,7 +32,7 @@ const projects = [
     ],
     image: './images/beakSeekerImg.jpg',
     github: 'https://github.com/GraySmith00/beak-seeker-client',
-    live: 'https://beakseeker.herokuapp.com'
+    live: 'https://beakseeker.netlify.com'
   },
   {
     title: 'StarWarsAwakens',
