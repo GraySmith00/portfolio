@@ -13,7 +13,7 @@ const projects = [
       'Node',
       'Postgres'
     ],
-    image: 'https://i.imgur.com/0qkjZtW.png',
+    image: './images/talentBuyerDash.jpg',
     github: 'https://github.com/GraySmith00/talent-buyer-client',
     live: 'http://talent-buyer.herokuapp.com'
   },
@@ -30,7 +30,7 @@ const projects = [
       'Express',
       'MongoDB'
     ],
-    image: 'https://i.imgur.com/HNaY9xt.png',
+    image: './images/beakSeekerImg.jpg',
     github: 'https://github.com/GraySmith00/beak-seeker-client',
     live: 'http://beakseeker.herokuapp.com'
   },
@@ -39,7 +39,7 @@ const projects = [
     description:
       'StarWarsAwakens is dynamic single page application that lets users interact with data from the Star Wars API in order to brush up on their favorite characters, planets, and vehicles. Users can save their favorite items for later viewing, as well as read random intro movie quotes at the bottom of the screen. Over 95% test coverage.',
     tech: ['React', 'Router', 'Enzyme', 'Jest'],
-    image: 'https://i.imgur.com/NUn9crT.png',
+    image: './images/swapiBoxImg.jpg',
     github: 'https://github.com/GraySmith00/gs-ml-swapibox',
     live: 'https://gs-swapibox.herokuapp.com/'
   },
@@ -48,7 +48,7 @@ const projects = [
     description:
       'Classic 2 Player Tron arcade game built in Vanilla JS using OOP.',
     tech: ['Vanilla JS', 'OOP'],
-    image: 'https://i.imgur.com/XTd0pF2.png',
+    image: './images/tronGame.jpg',
     github: 'https://github.com/GraySmith00/gs-bp-game-time',
     live: 'https://graysmith00.github.io/gs-bp-game-time'
   },
@@ -57,7 +57,7 @@ const projects = [
     description:
       'Weatherly is a dynamic real-time weather app built in React. Data for this app is pulled from the WeatherUnderground API and the background photo matches the weather. Search autocomplete is implemented with a custom Binary Search Trie and user preferences are saved to local storage. The design for this app was made in Figma.',
     tech: ['React', 'VanillaJS', 'Figma'],
-    image: 'https://i.imgur.com/0IJDydV.png',
+    image: './images/weatherlyImage.jpg',
     github: 'https://github.com/GraySmith00/gs-jm-weatherly',
     live: 'https://gs-jm-weatherly.herokuapp.com/'
   }

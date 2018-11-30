@@ -10,7 +10,7 @@ body {
   justify-content: center;
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('https://i.imgur.com/i6zaNss.jpg') no-repeat center center;
+    url('./images/unionStation.jpg') no-repeat center center;
   height: 30rem;
   background-size: cover;
 }
@@ -240,7 +240,7 @@ a:nth-child(1) {
   color: #fff;
   height: 550px;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url('https://i.imgur.com/eSEnwWB.jpg') no-repeat center center;
+    url('./images/ogdenLow.jpg') no-repeat center center;
   background-size: cover;
 }
 
